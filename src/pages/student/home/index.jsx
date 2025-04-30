@@ -1,5 +1,5 @@
 import { courseCategories } from "@/config";
-import banner from "../../../../public/banner-img.png";
+import banner from "../../../../public/elearning-online-education-concept-learn-internet_1150253-760.webp";
 import { Button } from "@/components/ui/button";
 import { useContext, useEffect } from "react";
 import { StudentContext } from "@/context/student-context";
@@ -86,7 +86,7 @@ function StudentHomePage() {
         </div>
       </section>
       <section className="py-12 px-4 lg:px-8">
-        <h2 className="text-2xl font-bold mb-6">Featured COourses</h2>
+        <h2 className="text-2xl font-bold mb-6">Featured Courses</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {studentViewCoursesList && studentViewCoursesList.length > 0 ? (
             studentViewCoursesList.map((courseItem) => (
